@@ -1,0 +1,26 @@
+body { font-family: Arial, "宋体"; font-size: 12px; padding: 0px; line-height: 20px; color: #505050; margin: 0 auto; text-align: enter; }
+html, p, ul, li, input, h1, h2, h3, h4, h5, h6, dl, dd, dt, a { margin: 0px; padding: 0px; }
+ul, li { list-style-type: none; }
+img { border: 0; -ms-interpolation-mode:bicubic; }
+a:link { color: #fff; text-decoration: none; }
+a:visited { color: #fff; text-decoration: none; }
+a:hover { color: #ba2363; }
+.warp { width: 960px; margin: 0 auto; }
+.ad2{ clear:both;width:960px;height: 90px;margin:5px auto 5px;}
+.ad1{ margin:20px auto 5px; width: 960px; height: 90px; clear: both; }
+.menu { height: 38px; margin-top:5px; padding-top: 4px; background: url(line.jpg) no-repeat top #2e93d7; clear: both; }
+.menu a { font-family: "微软雅黑", "宋体"; font-size: 18px; font-weight: bold; height: 38px; line-height: 38px; display: inline-block; text-align: center; width: 150px; }
+.menu a:hover { background-color: #2ebbbb; }
+
+.menu1 { height: 30px; margin-top:5px; padding-top: 0px; background: url(line.jpg) no-repeat top #b4b4b4; clear: both; }
+.menu1 a { font-family: "微软雅黑", "宋体"; font-size: 18px; font-weight: bold; height: 30px; line-height: 30px; display: inline-block; text-align: center; width: 100px; }
+.menu1 a:hover { background-color: #2ebbbb; }
+
+.logo a { background: url(logo.jpg) no-repeat; width: 127px; height: 38px;float:left;}
+.pic { background: url(line3.jpg) no-repeat left top #f7f7f7; border: 1px solid #b4b4b4; border-top: none; padding-bottom: 8px; padding-top: 5px; overflow: hidden; clear: both;margin-top:5px; }
+.piclist { padding: 0 0 5px 8px; width:950px;margin-top: -2px; overflow: hidden; }
+.piclist li { overflow: hidden; position: relative; margin-top: 10px; margin-right: 10px; height: 219px; width: 180px; float: left; }
+.piclist li img { width: 170px; height: 209px; padding: 4px; border: 1px solid #e6e6e6; background: #fff; }
+.piclist li span { position: absolute; height: 19px; width: 170px; background: #000; filter: alpha(opacity=60); opacity: 0.6; -moz-opacity: 0.6; -khtml-opacity: 0.6; bottom: 5px; left: 5px; }
+.piclist li p { color: #fff; position: absolute; height: 19px; width: 170px; line-height: 19px; text-align: center; overflow: hidden; font-weight: bold; font-size: 14px; bottom: 5px; left: 5px; }
+.copyright { text-align: center; line-height: 24px; padding: 10px 0; }

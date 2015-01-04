@@ -1,0 +1,101 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>影视影音</title>
+</head>
+<body style="margin:0;">
+<style>
+/*全局属性*/
+body{ margin:0; padding:0; font-size:12px; font-family:"宋体"; color:#000; background-color:#fff;}
+div,ul,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,h7,p,form,a{ margin:0; padding:0;}
+ul,li{ list-style-type:none;}
+a{ text-decoration:none; color:#000;}
+img{ border:0;}
+.clear{clear:both;}
+a:hover{ text-decoration:underline; color:blue;}
+.da{ width:948px; height:88px; border:1px #dddddd solid; margin:0 auto; padding-left:10px; }
+.da li{ width:135px; float:left; margin-top:3px; }
+.pic{ position:absolute; }
+.title{ width:126px; height:18px; background:url( ./img/126x18.png ) no-repeat; position:relative; top:64px;left:0; line-height:18px;azimuth: expression(
+this.pngSet?this.pngSet=true:(this.nodeName == "IMG" && this.src.toLowerCase().indexOf( .png )>-1?(this.runtimeStyle.backgroundImage = "none",
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src= " + this.src + " , sizingMethod= image )",
+this.src = "./img/unimages/xyx/doudouguo/newg/90/image/blank.gif"):(this.origBg = this.origBg? this.origBg :this.currentStyle.backgroundImage.toString().replace( url(" ,  ).replace( ") ,  ),
+this.runtimeStyle.filter = "progid:DXImageTransform.Microsoft.AlphaImageLoader(src= " + this.origBg + " , sizingMethod= crop )",
+this.runtimeStyle.backgroundImage = "none")),this.pngSet=true); }
+.title a{ color:white; padding-left:28px; overflow:hidden; padding-right:1px; }
+
+</style>
+<script type="text/javascript" language="javascript">
+//从一个给定的数组arr中,随机返回num个不重复项 
+function getArrayItems(arr, num) { 
+//新建一个数组,将传入的数组复制过来,用于运算,而不要直接操作传入的数组; 
+var temp_array = new Array(); 
+for (var index in arr) { 
+temp_array.push(arr[index]); 
+} 
+//取出的数值项,保存在此数组 
+var return_array = new Array(); 
+for (var i = 0; i<num; i++) { 
+//判断如果数组还有可以取出的元素,以防下标越界 
+if (temp_array.length>0) { 
+//在数组中产生一个随机索引 
+var arrIndex = Math.floor(Math.random()*temp_array.length); 
+//将此随机索引的对应的数组元素值复制出来 
+return_array[i] = temp_array[arrIndex]; 
+//然后删掉此索引的数组元素,这时候temp_array变为新的数组 
+temp_array.splice(arrIndex, 1); 
+} else { 
+//数组中数据项取完后,退出循环,比如数组本来只有10项,但要求取出20项. 
+break; 
+} 
+} 
+return return_array; 
+} 
+//测试 
+var my_array = [	 '1,韩国众明星被潜规则,./img/a1.jpg', 
+					 '2,3D肉铺团高清无码,./img/a2.jpg', 
+					 '4,女优被众人调戏,./img/a4.jpg', 
+					 '5,实习护士寂寞难忍,./img/a5.jpg', 
+					 '6,美女教室色诱老师,./img/a6.jpg',
+					'9,最美女优激情视频,./img/a9.jpg', 
+					'10,日本波霸被10人弄,./img/a10.jpg',  
+					'12,舒淇早期大放送,./img/a12.jpg',
+					'13,医生强奸昏迷病人,./img/a13.jpg', 
+					'14,少妇自拍激情视频,./img/a14.jpg',
+					'15,韩国A片真好看,./img/a15.jpg', 
+					'16,王宝强第一部成人,./img/a16.jpg', 
+					'17,香港地下KTV疯狂,./img/a17.jpg', 
+					'18,少妇在家寂寞难耐,./img/a18.jpg', 
+					'19,河南艳照门视频,./img/a19.jpg', 
+					'22,女教师当众自慰！,./img/a22.jpg', 
+					'23,女孩第一次视频,./img/a23.jpg', 
+					'24,5位花季少女激情,./img/a24.jpg', 
+					'26,新娘醉酒遭调戏,./img/a26.jpg',
+					'28,韩国女优高清无码,./img/a28.jpg',
+					'29,极致美臀入道女优,./img/a29.jpg',
+					'30,日本90后做AV女优,./img/a30.jpg',
+					'32,寂寞的村姑超激情,./img/a32.jpg']; 
+</script>
+
+<ul class="da">
+	 <script>
+		my_array = getArrayItems(my_array,7); 
+		var textval;
+		var arr=new Array();
+		var a=my_array.length;
+		for(var i=0;i<a;i++){
+		textval=my_array[i];
+	
+		arr=textval.split(",");
+		document.writeln("<li>");
+		document.writeln('<div class="pic"><a target="_blank" href="http://www.jsty4842.com/senr/201036666.html"><img src="'+arr[2]+'"/></a></div>');
+		document.writeln('<div class="title"><a target="_blank" href="http://www.jsty4842.com/senr/2010366666.html">'+arr[1]+'</a></div>');
+		document.writeln("</li>");
+		}
+   </script>
+</ul>
+
+</body>
+</html>
+ 
